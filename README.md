@@ -13,8 +13,6 @@ git clone https://github.com/kimoaliali/ansible-playbook.git
 [webserver]
 
 192.168.8.101
-192.168.8.102
-192.168.8.103
 
 [database]
 
