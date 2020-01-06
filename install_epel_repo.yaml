@@ -1,0 +1,9 @@
+---
+  - name: Install epel repo
+    hosts: all 
+    remote_user: root
+    become: yes
+
+    tasks: 
+    - name: install epel repo
+      yum: name=epel-release state=present 
